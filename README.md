@@ -65,7 +65,7 @@ To configure a new Template, you need have a YAML in the path directory you defi
 + **Description**: A brief description of what template is doing.
 + **Inventory**: Inventory you created in the ##Inventory## section
 + **Project**: Projecto you created in the ##Project## section
-+ **Playbook**: Playbook you're going to run. *(Go to Playbooks section for more information)*
++ **Playbook**: Playbook you're going to run. *(Go to playbook section for more information)*
 + **Credentials**: Credentials you'll use to execute the template.
 
 
@@ -86,9 +86,9 @@ The hosts file it's just a name definition to use on the inventory. If you want 
 + userpass
 <br>
 
-### Playbooks
+### Playbook
 
-For the playbook section, we need to put all the files you want to use on the project, in the path defined on the project step. Examples playbooks are on *playbooks-examples* folder.
+For the playbook section, we need to put all the files you want to use on the project, in the path defined on the project step. Examples of playbooks are on *playbook-examples* folder.
 
 
 To execute the playbook, you need to click on the rocket icon and Ansible will execute the template you defined.
