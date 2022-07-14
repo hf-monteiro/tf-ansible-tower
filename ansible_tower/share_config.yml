@@ -1,8 +1,0 @@
----
-- hosts: example-share
-  gather_facts: no
-  become: false
-  tasks:
-
-   - name: Run remote PowerShell Script
-     win_command: powershell.exe -ExecutionPolicy ByPass -File C:\Users\Administrator\domain_permission_share.ps1

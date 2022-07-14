@@ -12,7 +12,7 @@
     win_dns_client:
       adapter_names: '*'
       ipv4_addresses:
-        - 172.31.14.124
+        - 172.31.10.10 #DC IP address
 
   - name: Rename machine
     win_hostname:
@@ -27,7 +27,7 @@
     wait_for_connection:
       timeout: 900
 
-  - name: Join to "BAH.LOCAL"
+  - name: Join to DOMAIN.LOCAL" #DOMAIN NAME
     win_domain_membership:
       hostname: "{{ hostname }}"
       dns_domain_name: "{{ domain }}"
