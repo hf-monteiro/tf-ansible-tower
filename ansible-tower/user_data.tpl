@@ -11,8 +11,8 @@ cd ansible-automation-platform-setup-bundle-2.1.0-1
 
 sudo sed -i -e "s/admin_password=''/admin_password='Password123'/g" inventory
 sudo sed -i -e "s/pg_password=''/pg_password='Password123'/g" inventory
-sudo sed -i -e "s/registry_username=''/registry_username='bah.ansible'/g" inventory
-sudo sed -i -e "s/registry_password=''/registry_password='bah.ansible@2022'/g" inventory
+sudo sed -i -e "s/registry_username=''/registry_username='username'/g" inventory
+sudo sed -i -e "s/registry_password=''/registry_password='user@pass'/g" inventory
 
 
 
